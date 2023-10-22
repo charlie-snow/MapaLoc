@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document id="kml">
+<name>
+<![CDATA[
+KML
+]]>
+</name>
+<visibility>1</visibility>
+<Style id="sitio">
+<IconStyle>
+<hotSpot x="19" y="0" xunits="pixels" yunits="pixels" />
+<color>ffffffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>https://cdn4.iconfinder.com/data/icons/iconsweets/50/target.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>ffffffff</color>
+<colorMode>normal</colorMode>
+<width>2</width>
+</LineStyle>
+</Style>
+<Folder>
+<name>
+<![CDATA[
+capa
+]]>
+</name>
+<visibility>1</visibility>
+<Placemark>
+<name>
+<![CDATA[
+Casablanca Mezquita Hassan II  GratuitoAguanoWCno
+]]>
+</name>
+<visibility>1</visibility>
+<styleUrl>#capa</styleUrl>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-7.63535000, 33.60643000, 0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>
+<![CDATA[
+Dakhla  Gratuito Agua si Wc si
+]]>
+</name>
+<visibility>1</visibility>
+<styleUrl>#capa</styleUrl>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-15.71396000, 23.70615000, 0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>
+<![CDATA[
+Erg Chebbi   Gratuito Si Agua No WC No
+]]>
+</name>
+<visibility>1</visibility>
+<styleUrl>#capa</styleUrl>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-4.03180000, 31.16108000, 0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>
+<![CDATA[
+Essaouira  Gratuito no 20dhnoche Agua no Wc si 1dh
+]]>
+</name>
+<visibility>1</visibility>
+<styleUrl>#capa</styleUrl>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-9.76737000, 31.50915000, 0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>
+<![CDATA[
+Mezquita de Kutubiyya  Gratuito no Agua no Wc no
+]]>
+</name>
+<visibility>1</visibility>
+<styleUrl>#capa</styleUrl>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-7.99365000, 31.62424000, 0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>
+<![CDATA[
+Parking puerto Tanger  Gratuito No Agua No WC No
+]]>
+</name>
+<visibility>1</visibility>
+<styleUrl>#capa</styleUrl>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-5.80843000, 35.78378000, 0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>
+<![CDATA[
+Plaza Baghdadi Fez  Gratuitono50dhnocheparking urbanoAguanoWcno
+]]>
+</name>
+<visibility>1</visibility>
+<styleUrl>#capa</styleUrl>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-4.98544000, 34.06105000, 0
+</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>
+<![CDATA[
+Plaza Lahdim  GratuitoNo 50 Dhnoche AguaNo WCNo
+]]>
+</name>
+<visibility>1</visibility>
+<styleUrl>#capa</styleUrl>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-5.56554000, 33.89064000, 0
+</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document>
+</kml>

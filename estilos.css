@@ -1,0 +1,98 @@
+BODY {
+	font-family : Arial, Helvetica, sans-serif;
+	scrollbar-arrow-color : Black;
+	scrollbar-face-color : #E6E6FA;
+	scrollbar-track-color : white;
+	scrollbar-3dlight-color : #dcc4df;
+	scrollbar-darkshadow-color : #c4a4d0;
+	scrollbar-highlight-color : #dcc4df;
+	scrollbar-shadow-color :#dcc4df;
+}
+/* bgcolor="F8E5C7" */
+
+/*#mapa {
+    position: fixed;
+    right: 20;
+    top: 180;
+}*/
+
+#menu_tipos {
+	width: 150px;
+	heigth: 400px;
+    position: absolute;
+    left: 20;
+    top: 180;
+    /* overflow: scroll; */
+}
+
+#contenido {
+	width: 600px;
+    position: absolute;
+    left: 145;
+    top: 180;
+    /* overflow: scroll; */
+}
+
+
+
+table {
+	background-color : #E6E6FA;
+	font-size : 13px;
+}
+table.verde {
+	background-color : #ADEEB6;
+}
+table.negro {
+	background-color : #000000;
+	font-size : 13px;
+}
+.contenido {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+.texto {
+	font-size : 12px;
+	text-align : justify;
+}
+.pie {
+	font-size : 10px;
+}
+.blanco {
+	font-family : Arial, Helvetica, sans-serif;
+	color : White;
+}
+.fecha {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : bold;
+}
+.titulo {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;
+	font-weight : bold;
+}
+.oculto {
+	font-family : Arial, Helvetica, sans-serif;
+	color : #E6E6FA;
+	font-size : 10px;
+}
+.lila {
+	font-family : Arial, Helvetica, sans-serif;
+	color : #7d3ed2;
+}
+.rojo {
+	font-family : Arial, Helvetica, sans-serif;
+	color : red;
+}
+.texto_pequeno {
+	font-size : 10px;
+	text-align : justify;
+}
+.negrita {
+	font-weight : bold;
+}
+
+.texto_gigante {
+	font-size : 50px;
+	text-align : justify;
+}

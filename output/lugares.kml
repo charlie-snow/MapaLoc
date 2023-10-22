@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document id="kml">
+<name>
+<![CDATA[
+KML
+]]>
+</name>
+<visibility>1</visibility>
+<Style id="sitio">
+<IconStyle>
+<hotSpot x="19" y="0" xunits="pixels" yunits="pixels" />
+<color>ffffffff</color>
+<colorMode>normal</colorMode>
+<scale>1</scale>
+<Icon>
+<href>https://cdn4.iconfinder.com/data/icons/iconsweets/50/target.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>ffffffff</color>
+<colorMode>normal</colorMode>
+<width>2</width>
+</LineStyle>
+</Style>
+<Folder>
+<name>
+<![CDATA[
+capa
+]]>
+</name>
+<visibility>1</visibility>
+<Placemark>
+<name>
+<![CDATA[
+Playas artificiales Ada Ciganlija Belgrado   GratuitoAguasiWcsi
+]]>
+</name>
+<visibility>1</visibility>
+<styleUrl>#capa</styleUrl>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>20.37480000, 44.77568000, 0
+</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document>
+</kml>

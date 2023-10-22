@@ -1,0 +1,28 @@
+<script>
+// Geocoding using Mapquest Nominatim API
+// 
+// Documentation for the API: http://wiki.openstreetmap.org/wiki/Nominatim
+// Here's an example query: http://open.mapquestapi.com/nominatim/v1/search?q=detroit&format=json
+
+// geocode function 
+//
+// :param place: is a place name like "Detroit" or "London"
+// :callback: function receiving arguments (error, {lon: ..., lat: ...})
+function geocode(place, callback) {
+  var url = 'http://open.mapquestapi.com/search?format=json&q=' + encodeURIComponent(place);
+  // requires jquery for ajax
+  jQuery.getJSON(url, function(data) {
+    if (data.length > 0) {
+      callback(null, { lon: parseFloat(data[0].lon), lat: parseFloat(data[0].lat) })
+    } else {
+      callback(null, null)
+    }
+  });
+}
+
+geocode('paris');
+</script>
+
+//this is the html form    
+<input id="address" type="textbox">    
+<input type="button" value="Encode" onClick="codeAddress()">  
